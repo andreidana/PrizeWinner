@@ -107,6 +107,16 @@
     <None Include="PrizeWinner_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\slot-numbers\0.jpg" />
+    <Content Include="Assets\slot-numbers\1.jpg" />
+    <Content Include="Assets\slot-numbers\2.jpg" />
+    <Content Include="Assets\slot-numbers\3.jpg" />
+    <Content Include="Assets\slot-numbers\4.jpg" />
+    <Content Include="Assets\slot-numbers\5.jpg" />
+    <Content Include="Assets\slot-numbers\6.jpg" />
+    <Content Include="Assets\slot-numbers\7.jpg" />
+    <Content Include="Assets\slot-numbers\8.jpg" />
+    <Content Include="Assets\slot-numbers\9.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
