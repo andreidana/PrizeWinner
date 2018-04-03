@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PrizeWinner/bin/x86/Debug
+/PrizeWinner/obj/x86/Debug/intermediatexaml

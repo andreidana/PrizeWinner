@@ -10,13 +10,21 @@
     <Grid Margin="0,0,10,0" 
           HorizontalAlignment="Center" 
           VerticalAlignment="Center">
-        
-        <StackPanel Orientation="Horizontal">
-            <Image Height="450" Margin="5,5,5,5" Source="./Assets/slot-numbers/0.jpg"></Image>
-            <Image Height="450" Margin="5,5,5,5" Source="./Assets/slot-numbers/1.jpg"></Image>
-            <Image Height="450" Margin="5,5,5,5" Source="./Assets/slot-numbers/2.jpg"></Image>
+        <StackPanel Orientation="Vertical">
+            <ScrollViewer x:Name="scrollviewer" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Hidden"
+                          VerticalScrollMode="Disabled" HorizontalScrollMode="Enabled" Grid.Row="1" Loaded="scrollViewer_Loaded"
+                          Unloaded="scrollviewer_Unloaded">
+                <TextBlock Text="Start:111fdafdilgklnkghiogj2222213135aaaadjiosfuiafkhafuia464676541134564132145546afafkjarpikfsanjahfnvfnvjkhghga:End" TextWrapping="NoWrap"
+                           FontSize="40" />
+            </ScrollViewer>
+
+            <StackPanel Orientation="Horizontal">
+                <Image Height="450" Margin="5,5,5,5" Source="./Assets/slot-numbers/0.jpg"></Image>
+                <Image Height="450" Margin="5,5,5,5" Source="./Assets/slot-numbers/1.jpg"></Image>
+                <Image Height="450" Margin="5,5,5,5" Source="./Assets/slot-numbers/2.jpg"></Image>
+            </StackPanel>
+
+            <Button Content="Start"></Button>
         </StackPanel>
-        
-        <Button Content="Start"></Button>
     </Grid>
 </Page>
